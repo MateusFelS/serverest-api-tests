@@ -49,9 +49,6 @@ A estrutura de pastas e arquivos é organizada para facilitar a manutenção e e
    │   ├── e2e/
    │   │   ├── users.cy.js       # Testes de usuários (CRUD de usuários)
    │   │   ├── products.cy.js    # Testes de produtos (CRUD de produtos)
-   │   ├── fixtures/
-   │   │   ├── userData.json     # Dados de usuário para criação e autenticação
-   │   │   ├── productData.json  # Dados de produto para criação e edição
    │   ├── support/
    │   │   ├── commands.js       # Comandos customizados do Cypress
    │   │   ├── e2e.js            # Configurações globais para o Cypress
