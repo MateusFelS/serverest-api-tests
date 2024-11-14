@@ -32,7 +32,7 @@ Este projeto foi desenvolvido para exercitar habilidades de QA em automação, u
 Durante a execução dos testes, foram identificados alguns problemas:
 
 1. **Algumas requests retornando código errado**
-   - **Descrição**: A request login e a edit product estão retornando códigos diferentes do padrão utilizado.
+   - **Descrição**: A request login está retornando código diferente do padrão utilizado.
    - **Risco**: Pode ser difícil para o consumidor da API entender a semântica correta da resposta, criando possíveis falhas na integração com o front-end ou com outros serviços que dependem dessa resposta. E pode afetar a automação de testes, já que o código de status esperado não corresponde ao que é retornado pela API. Isso pode levar a falhas nos testes e uma análise errada dos resultados.
 
 ## Tecnologias Utilizadas

@@ -50,6 +50,8 @@ describe('Product Requests', () => {
 
     it('Login', () => {
         cy.postAPI('/login', postLoginBody).then((response) => {
+
+            // Login usando post, então código era pra ser 201
             validateResponse(response, 200, 'OK');
             bearerToken = response.body.authorization;
         });
@@ -64,6 +66,7 @@ describe('Product Requests', () => {
 
     it('Create Product', () => {
         cy.postAPI('/produtos', createProductBody(), bearerToken).then((response) => {
+
             validateResponse(response, 201, 'Created');
             productId = response.body._id;
             cy.log('Produto criado:', JSON.stringify(response.body, null, 2));
