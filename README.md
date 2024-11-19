@@ -61,7 +61,7 @@ Para rodar os testes em sua máquina local, siga os passos abaixo:
 1. **Clone este repositório**:
 
    ```bash
-   git clone https://github.com/MateusFels/api_tests.git
+   git clone https://github.com/MateusFels/serverest-api-tests.git
    cd "seu_repositorio"
 
 2. **Instale as dependências**:
